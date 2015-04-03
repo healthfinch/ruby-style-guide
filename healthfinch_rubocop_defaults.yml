@@ -1,0 +1,35 @@
+# Default Rubocop settings for all of our projects.
+
+Style/AndOr:
+  Enabled: true
+
+Style/BracesAroundHashParameters:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: true
+
+Style/EmptyLiteral:
+  Enabled: true
+
+Style/NegatedIf:
+  Enabled: false
+
+Style/RedundantReturn:
+  Enabled: true
+  Exclude:
+    - 'spec/**/*'
+
+Style/RegexpLiteral:
+  Exclude:
+    - '*.gemspec'
+
+Style/SignalException:
+  Enabled: true
+
+Style/SpaceInsideHashLiteralBraces:
+  Enabled: true
+  EnforcedStyle: no_space
