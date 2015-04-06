@@ -33,3 +33,6 @@ Style/SignalException:
 Style/SpaceInsideHashLiteralBraces:
   Enabled: true
   EnforcedStyle: no_space
+
+Style/EachWithObject:
+  Enabled: false
